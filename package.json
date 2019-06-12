@@ -1,0 +1,22 @@
+{
+  "name": "mis-net-auth",
+  "version": "0.1.22",
+  "description": "mis net auth middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.quanmin.tv:h5/mis-net-auth-middleware.git"
+  },
+  "author": "zyEros",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0",
+    "underscore": "^1.8.3"
+  },
+  "_from": "mis-net-auth-middleware@0.1.22",
+  "_resolved": "https://registry.npm.taobao.org/mis-net-auth-middleware/download/mis-net-auth-middleware-0.1.22.tgz",
+  "__npminstall_done": "Wed Jun 12 2019 13:55:06 GMT+0800 (GMT+08:00)"
+}
