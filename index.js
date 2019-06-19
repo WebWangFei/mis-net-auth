@@ -3,7 +3,7 @@ var _ = require('underscore');
 var url = require('url');
 
 
-var DEFAULT_HOST = process.env.DEBUG==='local' ? "http://test-mis.tuji.com:9090" :process.env.DEBUG==='test'?"http://mis-test.tuji.com":"http://mis.uugtv.com";
+var DEFAULT_HOST = process.env.DEBUG==='local' ? "http://test-mis.tuji.com:9090" :process.env.DEBUG==='test'?"http://mis-test.tuji.com":process.env.DEBUG==='new_dev'?"http://mis-dev.tuji.com":"http://mis.uugtv.com";
 var DEFAULT_PATH_NAME = '/passport/service/checkNetAuth';
 
 module.exports = function(opt) {
